@@ -1,2 +1,2 @@
-# capstone_webscraping
+# Web Scraping dengan Menggunakan BeautifulSoup
 web scraping dengan menggunakan BeautifulSoup
