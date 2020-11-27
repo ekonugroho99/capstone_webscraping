@@ -13,5 +13,5 @@ Pada project Capstone antara lain berisi:
 - matplotlib
 
 atau dapat dengan cara langsung menginstall requirement.txt yang ada pada project ini
-> pip install -r requirements.txt
+> `pip install -r requirements.txt`
 
