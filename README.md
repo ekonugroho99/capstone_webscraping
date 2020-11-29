@@ -15,3 +15,6 @@ Pada project Capstone antara lain berisi:
 atau dapat dengan cara langsung menginstall requirement.txt yang ada pada project ini
 > `pip install -r requirements.txt`
 
+## Flask ##
+Berikut merupakan hasil tampilan dashboard dengan menggunakan `Flask` <br>
+<img src="flask.PNG" />
