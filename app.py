@@ -67,7 +67,7 @@ def index():
     df    = scrap(url_1) #insert url here
 
     #This part for rendering matplotlib
-    fig = plt.figure(figsize=(8,10),dpi=300)
+    fig = plt.figure(figsize=(4,6),dpi=300)
     plt.style.use('seaborn')
     #plt.style.use('seaborn-bright')
     #plt.xticks(fontsize=2)
