@@ -16,8 +16,14 @@ atau dapat dengan cara langsung menginstall requirement.txt yang ada pada projec
 > `pip install -r requirements.txt`
 
 ## Hasil Scraping ##
-Berikut adalah hasil scraping yang telah diubah ke dalam bentuk DataFrames <br>
-<img src="hasil_scraping.png" />
+Berikut adalah hasil scraping yang telah diubah ke dalam bentuk DataFrames <br><br>
+
+
+HTML                     |  Scraping               | Data Frames
+:-------------------------:|:-------------------------:|:-------------------------:
+![](images/halaman_html.png)    |  <img src="images/arrow.png" width="80" height="60" />   |  ![](images/hasil_scraping.png)
+
+
 
 ## Hasil Plot ##
 Berikut adalah plot perbandingan 7 film terpopuler berdasarkan rating, meta score dan votes <br>
