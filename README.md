@@ -23,7 +23,7 @@ Berikut adalah hasil scraping yang telah diubah ke dalam bentuk DataFrames <br>
 Berikut adalah plot perbandingan 7 film terpopuler berdasarkan rating, meta score dan votes <br>
 Rating                     |  Meta Score               | Votes
 :-------------------------:|:-------------------------:|:-------------------------:
-![](images/rating.png)     |  ![](images/rating.png)   |  ![](images/votes.png)
+![](images/rating.png)     |  ![](images/meta_score.png)   |  ![](images/votes.png)
 
 ## Flask ##
 Berikut merupakan hasil tampilan dashboard dengan menggunakan `Flask` <br><br>
