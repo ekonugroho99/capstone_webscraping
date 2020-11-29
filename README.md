@@ -17,7 +17,7 @@ atau dapat dengan cara langsung menginstall requirement.txt yang ada pada projec
 
 ## Hasil Scraping ##
 Berikut adalah hasil scraping yang telah diubah ke dalam bentuk DataFrames <br>
-
+<img src="hasil_scraping.png" />
 
 
 ## Flask ##
