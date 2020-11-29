@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-10 col-lg-8 col-sm-10">
+					<br>
+					<br>
+					<h1 class="mb-2">
+						Best of 7 Film Populer Versi IMDb
+					</h1>
+					<h3>
+						Periode: 1 Januari s.d 31 Desember 2019
+					</h3>
+					<br>
+				</div>
+			</div>
+		<div class="row">
+			<div class="col-md-4 col-lg-4 col-sm-4">
+				<div class="card card-stats">
+					<div class="card-header">
+						<div class="card-icon">
+							<i></i>
+						</div>
+						
+							{{ table | safe}}
+						
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 col-lg-8 col-sm-8">
+				<div class="tab">
+					<button class="tablinks" onclick="openTab(event, 'profile') " id="defaultOpen">by Profile
+					</button>
+					<button class="tablinks" onclick="openTab(event, 'Own')">(Create-Your-Own)
+					</button>
+				</div>
+				<div id="profile" class="tabcontent">
+					<br>
+					<h4 style="color: #333333;text-align:center">Plot 7 Film Terpopuler</h4>
+					<div class="img-container">
+						{% if funded_plot != None %}
+							<img src="data:image/png;base64,{{ result }}" width="820" height="380"/>
+						{% endif %}
+					</div>
+				
+					<div id="Own" class="tabcontent">
+						<div class="img-container"> </div>
+					<!-- Define your own analysis for extra challange -->
+				  
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-md-8 col-lg-8 col-sm-8">
+				<!-- Tab content -->
+				
+			</div>
+			
+		
+		</div>
+		
+	
+			
+		<div class="row">
+			
+		</div>
+		<div class="row">
+			
+		</div>
+	</div>
+
+</body>
+
+<script type="text/javascript">
+function openTab(evt, idName) {
+	// Declare all variables
+	var i, tabcontent, tablinks;
+
+	// Get all elements with class="tabcontent" and hide them
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+	tabcontent[i].style.display = "none";
+	}
+
+	// Get all elements with class="tablinks" and remove the class "active"
+	tablinks = document.getElementsByClassName("tablinks");
+	for (i = 0; i < tablinks.length; i++) {
+	tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+
+	// Show the current tab, and add an "active" class to the button that opened the tab
+	document.getElementById(idName).style.display = "block";
+	evt.currentTarget.className += " active";
+
+
+	}
+	document.getElementById("defaultOpen").click();	
+</script>
