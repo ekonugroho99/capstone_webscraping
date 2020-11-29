@@ -15,6 +15,11 @@ Pada project Capstone antara lain berisi:
 atau dapat dengan cara langsung menginstall requirement.txt yang ada pada project ini
 > `pip install -r requirements.txt`
 
+## Hasil Scraping ##
+Berikut adalah hasil scraping yang telah diubah ke dalam bentuk DataFrames <br>
+
+
+
 ## Flask ##
-Berikut merupakan hasil tampilan dashboard dengan menggunakan `Flask` <br>
+Berikut merupakan hasil tampilan dashboard dengan menggunakan `Flask` <br><br>
 <img src="flask.PNG" />
